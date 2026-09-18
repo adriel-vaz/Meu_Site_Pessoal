@@ -1,0 +1,44 @@
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+img {
+    width: 300px;
+    float: right;
+    margin-left: 20px;
+    border: 2px solid #1c2541;
+}
+
+strong {
+    color: #08ebc9;
+}
+
+mark {
+    background-color: #0c9159;
+    color: #08ebc9;
+    padding: 2px 4px;
+}
+
+blockquote {
+    background-color: #045685;
+    border-left: 4px solid #93aa00;
+    margin: 15px 0;
+    padding: 10px;
+}
+
+a {
+    color: #0a6ef1;
+}
+
+a:hover {
+    color: #08ebc9;
+}

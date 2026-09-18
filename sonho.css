@@ -1,0 +1,39 @@
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+figure {
+    display: inline-block;
+    margin: 10px;
+    border: 1px solid #e3e5ec;
+    padding: 10px;
+    background-color: #0480be;
+}
+
+figure img {
+    width: 300px;
+    object-fit: cover;
+}
+
+figcaption {
+    color: #dceaed;
+    text-align: center;
+    margin-top: 5px;
+}
+
+a {
+    color:#0a6ef1;
+}
+
+a:hover {
+    color: #08ebc9;
+}
