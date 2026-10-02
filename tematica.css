@@ -14,10 +14,16 @@ p {
 figure {
     margin: 15px 0;
 }
-
+.img-destaque {
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
 figure img {
     width: 400px;
-    border: 2px solid #1c2541;
+    border: 2px solid #b6c4ef;
 }
 
 figcaption {
