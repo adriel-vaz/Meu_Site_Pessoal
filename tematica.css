@@ -1,0 +1,47 @@
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+figure {
+    margin: 15px 0;
+}
+
+figure img {
+    width: 400px;
+    border: 2px solid #1c2541;
+}
+
+figcaption {
+    color: #90e0ef;
+}
+
+strong {
+    color: #08ebc9;
+}
+
+em {
+    color: #08ebc9;
+}
+
+mark {
+    background-color: #1a2956;
+    color: #08ebc9;
+    padding: 2px 4px;
+}
+
+a {
+    color:#0a6ef1;
+}
+
+a:hover {
+    color:#08ebc9;
+}

@@ -1,0 +1,78 @@
+main {
+    padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.secao-destaque-pai {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.foto-pai-centralizada {
+    width: 100%;
+    max-width: 380px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #1c2541;
+    border-radius: 8px;
+}
+
+.texto-introducao-pai {
+    text-align: justify;
+    line-height: 1.6;
+    margin-top: 15px;
+}
+
+strong {
+    color: #08ebc9;
+}
+
+mark {
+    background-color: #0c9159;
+    color: #08ebc9;
+    padding: 2px 4px;
+}
+
+blockquote {
+    background-color: #045685;
+    border-left: 4px solid #93aa00;
+    margin: 15px 0;
+    padding: 10px;
+}
+
+a {
+    color: #0a6ef1;
+}
+
+a:hover {
+    color: #08ebc9;
+}
+
+.grid-colunas {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media screen and (min-width: 768px) {
+    .grid-colunas {
+        flex-direction: row;
+        align-items: flex-start; 
+        gap: 30px; 
+    }
+
+    .coluna {
+        flex: 1;
+    }
+}

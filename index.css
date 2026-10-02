@@ -1,0 +1,32 @@
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5;
+}
+
+.foto-perfil {
+    width: 280px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto 25px auto; 
+    border: 3px solid #6f6e86;
+    border-radius: 8px;
+}
+
+a {
+    color: #466791;
+}
+
+a:hover {
+    color: #08ebc9;
+}
